@@ -1,0 +1,9 @@
+body {
+  background-image: url(media/chair.jpg);
+  /* sets background image. if this does not fill the screen, it will repeat and fill the screen with an array of this image. */
+}
+
+h1 {
+  background-color: red;
+  /* sets background around h1 text */
+}
