@@ -1,5 +1,5 @@
 body {
-  background-image: url(media/chair.jpg); /* sets background image. if this does not fill the screen, it will repeat and fill the screen with an array of this image. */
+  /* background-image: url(media/chair.jpg); sets background image. if this does not fill the screen, it will repeat and fill the screen with an array of this image. */
 }
 
 .main-header {
@@ -8,4 +8,28 @@ body {
   height: 10vh;
   width: 50vw;
   margin: 20px auto;
+  text-align: center;
+}
+
+/* .background {
+  background-image: url(media/table.webp);
+  background-position: center;
+  background-size: cover;
+  padding: 20px 5px;
+  color: black;
+  height: 20vh;
+}
+
+.span {
+  color: blue;
+} */
+
+.parent {
+  border: 5px solid red;
+  height: 500px;
+  width: 500px;
+}
+
+.child {
+  border: 3px solid green;
 }
