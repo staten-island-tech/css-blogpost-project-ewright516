@@ -10,11 +10,12 @@ body {
 }
 
 .article {
-  height: 600px;
+  height: 75vh;
   width: 50vw;
   margin: 20vh auto;
   border: 2px solid black;
   position: relative;
+  z-index: 1;
 }
 
 .article-headline {
@@ -23,10 +24,16 @@ body {
   bottom: 0px;
   right: 0px;
   left: 0px;
+  margin-bottom: 20px
+  z-index: 2;
 }
 
 .article-image-preview {
-  height: 600px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 50vw;
+  z-index: 0;
 }
 
 /* .background {
