@@ -19,7 +19,44 @@ header {
   position: relative;
 }
 
+.article-1 {
+  height: 63vh;
+}
+
 .article-headline {
+  border: 3px solid #689f38;
+  background-color: #dcedc8;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  margin-top: 0px;
+  z-index: 2;
+  text-align: center;
+}
+
+.breaking-news {
+  background-color: red;
+  color: white;
+}
+
+.article-image-preview {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  height: 70vh;
+  z-index: 0;
+}
+
+.article1-image-preview {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 70vh;
+  z-index: 0;
+}
+
+.article-description {
   border: 3px solid #689f38;
   background-color: #dcedc8;
   position: absolute;
@@ -30,12 +67,10 @@ header {
   z-index: 2;
 }
 
-.article-image-preview {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0%);
-  height: 70vh;
-  z-index: 0;
+.article-learn-more {
+  margin-bottom: 0px;
+  font-size: small;
+  color: black;
 }
 
 /* .background {
