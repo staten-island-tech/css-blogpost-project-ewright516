@@ -15,11 +15,19 @@ header {
   width: 10vw;
   position: absolute;
   top: 0px;
+}
+
+.raspi-icon {
   left: 0px;
+}
+
+.jetson-icon {
+  right: 0px;
 }
 
 .icon:hover {
   filter: saturate(300%);
+  width: 10.5vw;
 }
 
 .article {
@@ -35,11 +43,11 @@ header {
 }
 
 .article-2 {
-  height: 66vh;
+  height: 60vh;
 }
 
 .article-3 {
-  height: 47vh;
+  height: 42vh;
 }
 
 .article-headline {
@@ -70,7 +78,7 @@ header {
 }
 
 .image-2 {
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .image-3 {
@@ -97,33 +105,3 @@ header {
   font-size: small;
   color: black;
 }
-
-/* .background {
-  background-image: url(media/table.webp);
-  background-position: center;
-  background-size: cover;
-  padding: 20px 5px;
-  color: black;
-  height: 20vh;
-}
-
-.span {
-  color: blue;
-} */
-
-/* .parent {
-  border: 5px solid red;
-  height: 500px;
-  width: 500px;
-  background-image: url(media/chair.jpg);
-  position: relative;
-}
-
-.child {
-  border: 3px solid green;
-  background-color: pink;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
