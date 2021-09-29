@@ -105,3 +105,7 @@ header {
   font-size: small;
   color: black;
 }
+
+.article-learn-more:hover {
+  font-weight: bold;
+}
